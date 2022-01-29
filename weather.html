@@ -1,4 +1,5 @@
 <style>
+/*	
 .widget {
 	position: absolute;
 	top: 3%;
@@ -15,7 +16,43 @@ div{
 iframe {
 	border-radius: 10px;
 } 
-	
+*/
+	.widget {
+position: absolute;
+top: 1% !important;
+right: 1%;
+width: 10%;
+border-radius: 25px;
+}
+
+div{
+    background-color: #c4c2c2;
+	background-color: transparent !important;
+}
+
+iframe {
+   border-radius: 10px;
+}
+
+#weatherWidget  {
+	color: #acacab;
+}
+
+#weatherWidget .locationName {
+	color: #acacab;
+}
+#weatherWidget .locationName span {
+	color: #acacab;
+}
+#weatherWidget .currentTemp {
+	color: #acacab;
+}
+#weatherWidget .currentDesc {
+	color: #acacab;
+}
+#weatherWidget .dayName {
+	color: #acacab;
+}
 </style>
 
 <div class="widget">
@@ -32,7 +69,7 @@ iframe {
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
 -->
-<a class="weatherwidget-io" href="https://forecast7.com/en/32d0834d89/petah-tikva/" data-label_1="PETAH TIKVA" data-label_2="WEATHER" data-theme="pure" data-textcolor="#ffffff">PETAH TIKVA WEATHER</a>
+<a class="weatherwidget-io" href="https://forecast7.com/en/32d0834d89/petah-tikva/" data-label_1="PETAH TIKVA" data-label_2="WEATHER" data-theme="pure">PETAH TIKVA WEATHER</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
